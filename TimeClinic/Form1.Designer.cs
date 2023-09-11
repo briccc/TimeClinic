@@ -1,6 +1,6 @@
 ﻿namespace TimeClinic
 {
-    partial class Login
+    partial class Form1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -150,7 +150,7 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Ingresa tus datos a continuación";
             // 
-            // Login
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -165,8 +165,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Name = "Login";
-            this.Text = "Iniciar Sesión";
+            this.Name = "Form1";
+            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
