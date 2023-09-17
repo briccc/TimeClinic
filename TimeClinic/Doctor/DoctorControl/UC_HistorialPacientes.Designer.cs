@@ -37,18 +37,19 @@
             this.direc_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechanac_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BVerMas = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.label1.Location = new System.Drawing.Point(336, 70);
+            this.label1.Location = new System.Drawing.Point(280, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(369, 39);
+            this.label1.Size = new System.Drawing.Size(447, 58);
             this.label1.TabIndex = 3;
             this.label1.Text = "Historial de Pacientes";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -66,12 +67,13 @@
             this.fechanac_paciente,
             this.BVerMas});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.Location = new System.Drawing.Point(60, 144);
+            this.dataGridView1.Location = new System.Drawing.Point(61, 178);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView1.Size = new System.Drawing.Size(920, 385);
+            this.dataGridView1.Size = new System.Drawing.Size(919, 357);
             this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dni_paciente
             // 
@@ -122,11 +124,24 @@
             this.BVerMas.Name = "BVerMas";
             this.BVerMas.Width = 125;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label6.Location = new System.Drawing.Point(222, 99);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(596, 24);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Para ver información detallada sobre cada paciente presionar ver más";
+            // 
             // UC_HistorialPacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(227)))), ((int)(((byte)(172)))));
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "UC_HistorialPacientes";
@@ -149,5 +164,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn direc_paciente;
         private System.Windows.Forms.DataGridViewTextBoxColumn fechanac_paciente;
         private System.Windows.Forms.DataGridViewButtonColumn BVerMas;
+        private System.Windows.Forms.Label label6;
     }
 }

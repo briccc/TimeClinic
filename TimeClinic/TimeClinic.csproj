@@ -59,6 +59,12 @@
     <Compile Include="Doctor\DoctorControl\UC_HistorialPacientes.Designer.cs">
       <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_ListaTurnos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_ListaTurnos.Designer.cs">
+      <DependentUpon>UC_ListaTurnos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Doctor\DoctorTabs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Doctor\DoctorControl\UC_HistorialPacientes.resx">
       <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_ListaTurnos.resx">
+      <DependentUpon>UC_ListaTurnos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Doctor\DoctorTabs.resx">
       <DependentUpon>DoctorTabs.cs</DependentUpon>

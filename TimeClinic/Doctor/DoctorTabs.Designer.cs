@@ -163,6 +163,7 @@
             this.BListaTurnos.TabIndex = 4;
             this.BListaTurnos.Text = "Lista de Turnos";
             this.BListaTurnos.UseVisualStyleBackColor = false;
+            this.BListaTurnos.Click += new System.EventHandler(this.BListaTurnos_Click);
             // 
             // DoctorTabs
             // 

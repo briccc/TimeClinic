@@ -17,16 +17,13 @@ namespace TimeClinic.DoctorControl
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
-            UC_HistorialPacientes uc = new UC_HistorialPacientes();
-            addUserControl(uc);
         }
 
         private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
-            panel1.Controls.Clear();
             panel1.Controls.Add(userControl);
-            userControl.BringToFront();
+            
         }
         private void DoctorTabs_Load(object sender, EventArgs e)
         {
@@ -62,6 +59,11 @@ namespace TimeClinic.DoctorControl
         {
             UC_HistorialPacientes uc = new UC_HistorialPacientes();
             addUserControl(uc);
+        }
+
+        private void BListaTurnos_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
