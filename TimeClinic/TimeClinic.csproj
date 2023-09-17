@@ -162,5 +162,14 @@
   <ItemGroup>
     <None Include="img\TurnosHoy.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\TurnosTerminados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\examen %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

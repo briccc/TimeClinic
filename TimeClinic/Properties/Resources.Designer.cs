@@ -93,6 +93,26 @@ namespace TimeClinic.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap examen {
+            get {
+                object obj = ResourceManager.GetObject("examen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap examen__1_ {
+            get {
+                object obj = ResourceManager.GetObject("examen (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logout {
             get {
                 object obj = ResourceManager.GetObject("logout", resourceCulture);
@@ -106,6 +126,16 @@ namespace TimeClinic.Properties {
         internal static System.Drawing.Bitmap TurnosHoy {
             get {
                 object obj = ResourceManager.GetObject("TurnosHoy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TurnosTerminados {
+            get {
+                object obj = ResourceManager.GetObject("TurnosTerminados", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

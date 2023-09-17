@@ -127,7 +127,7 @@
             // 
             this.panelContainer.Location = new System.Drawing.Point(351, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1026, 856);
+            this.panelContainer.Size = new System.Drawing.Size(1323, 856);
             this.panelContainer.TabIndex = 3;
             // 
             // BInicio
@@ -223,7 +223,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(227)))), ((int)(((byte)(172)))));
-            this.ClientSize = new System.Drawing.Size(1188, 1002);
+            this.ClientSize = new System.Drawing.Size(1675, 1002);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panel1);
             this.Name = "DoctorTabs";
