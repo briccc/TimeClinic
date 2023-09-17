@@ -53,6 +53,12 @@
     <Compile Include="AdmiControl\UsersList.Designer.cs">
       <DependentUpon>UsersList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_AgregarReceta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_AgregarReceta.Designer.cs">
+      <DependentUpon>UC_AgregarReceta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Doctor\DoctorControl\UC_HistorialPacientes.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdmiControl\UsersList.resx">
       <DependentUpon>UsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_AgregarReceta.resx">
+      <DependentUpon>UC_AgregarReceta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Doctor\DoctorControl\UC_HistorialPacientes.resx">
       <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
