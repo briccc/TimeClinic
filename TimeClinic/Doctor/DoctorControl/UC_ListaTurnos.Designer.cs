@@ -36,6 +36,8 @@
             this.apellido_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fecha_turno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BAgregarReceta = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.BAgregarNuevaReceta = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +68,7 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            this.dataGridView1.Size = new System.Drawing.Size(666, 357);
+            this.dataGridView1.Size = new System.Drawing.Size(671, 357);
             this.dataGridView1.TabIndex = 13;
             // 
             // label1
@@ -116,16 +118,48 @@
             this.BAgregarReceta.Name = "BAgregarReceta";
             this.BAgregarReceta.Width = 125;
             // 
+            // BAgregarNuevaReceta
+            // 
+            this.BAgregarNuevaReceta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
+            this.BAgregarNuevaReceta.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
+            this.BAgregarNuevaReceta.FlatAppearance.BorderSize = 2;
+            this.BAgregarNuevaReceta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
+            this.BAgregarNuevaReceta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
+            this.BAgregarNuevaReceta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BAgregarNuevaReceta.Font = new System.Drawing.Font("Bahnschrift SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BAgregarNuevaReceta.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BAgregarNuevaReceta.Location = new System.Drawing.Point(789, 198);
+            this.BAgregarNuevaReceta.Margin = new System.Windows.Forms.Padding(4);
+            this.BAgregarNuevaReceta.Name = "BAgregarNuevaReceta";
+            this.BAgregarNuevaReceta.Size = new System.Drawing.Size(136, 42);
+            this.BAgregarNuevaReceta.TabIndex = 21;
+            this.BAgregarNuevaReceta.Text = "Agregar";
+            this.BAgregarNuevaReceta.UseVisualStyleBackColor = false;
+            this.BAgregarNuevaReceta.Click += new System.EventHandler(this.BAgregarNuevaReceta_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(813, 270);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // UC_ListaTurnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(227)))), ((int)(((byte)(172)))));
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BAgregarNuevaReceta);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "UC_ListaTurnos";
-            this.Size = new System.Drawing.Size(1043, 546);
+            this.Size = new System.Drawing.Size(956, 546);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -142,5 +176,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn apellido_paciente;
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha_turno;
         private System.Windows.Forms.DataGridViewButtonColumn BAgregarReceta;
+        private System.Windows.Forms.Button BAgregarNuevaReceta;
+        private System.Windows.Forms.Button button1;
     }
 }

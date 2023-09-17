@@ -145,7 +145,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Name = "UC_HistorialPacientes";
-            this.Size = new System.Drawing.Size(1041, 581);
+            this.Size = new System.Drawing.Size(1186, 581);
             this.Load += new System.EventHandler(this.UC_HistorialPacientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

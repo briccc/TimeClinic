@@ -21,7 +21,7 @@ namespace TimeClinic.DoctorControl
             addUserControl(uc);
         }
 
-        private void addUserControl(UserControl userControl)
+        public void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
             panelContainer.Controls.Clear();
@@ -48,7 +48,7 @@ namespace TimeClinic.DoctorControl
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        public void panel1_Paint(object sender, PaintEventArgs e)
         {
             panel1.Height = this.ClientSize.Height;
         }
@@ -63,10 +63,9 @@ namespace TimeClinic.DoctorControl
             UC_HistorialPacientes uc = new UC_HistorialPacientes();
             addUserControl(uc);
         }
-
         private void BListaTurnos_Click(object sender, EventArgs e)
         {
-            UC_ListaTurnos uc = new UC_ListaTurnos();
+            UC_ListaTurnos uc = new UC_ListaTurnos(this);
             addUserControl(uc);
         }
 

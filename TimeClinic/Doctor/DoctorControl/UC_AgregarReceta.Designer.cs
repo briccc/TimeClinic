@@ -154,7 +154,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Name = "UC_AgregarReceta";
-            this.Size = new System.Drawing.Size(1079, 543);
+            this.Size = new System.Drawing.Size(1222, 585);
             this.ResumeLayout(false);
             this.PerformLayout();
 
