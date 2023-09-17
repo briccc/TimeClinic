@@ -32,5 +32,10 @@ namespace TimeClinic.DoctorControl
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
