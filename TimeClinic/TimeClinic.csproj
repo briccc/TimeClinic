@@ -53,6 +53,12 @@
     <Compile Include="AdmiControl\UsersList.Designer.cs">
       <DependentUpon>UsersList.cs</DependentUpon>
     </Compile>
+    <Compile Include="DoctorControl\DoctorTabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorControl\DoctorTabs.Designer.cs">
+      <DependentUpon>DoctorTabs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdmiControl\UsersList.resx">
       <DependentUpon>UsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorControl\DoctorTabs.resx">
+      <DependentUpon>DoctorTabs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -98,8 +107,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DoctorControl\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
