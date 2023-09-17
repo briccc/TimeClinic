@@ -17,13 +17,16 @@ namespace TimeClinic.DoctorControl
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
+            UC_InicioDoctor uc = new UC_InicioDoctor();
+            addUserControl(uc);
         }
 
         private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
-            panel1.Controls.Add(userControl);
-            
+            panelContainer.Controls.Clear();
+            panelContainer.Controls.Add(userControl);
+            userControl.BringToFront();
         }
         private void DoctorTabs_Load(object sender, EventArgs e)
         {
@@ -63,7 +66,14 @@ namespace TimeClinic.DoctorControl
 
         private void BListaTurnos_Click(object sender, EventArgs e)
         {
+            UC_ListaTurnos uc = new UC_ListaTurnos();
+            addUserControl(uc);
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UC_InicioDoctor uc = new UC_InicioDoctor();
+            addUserControl(uc);
         }
     }
 }

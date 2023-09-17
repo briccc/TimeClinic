@@ -65,6 +65,12 @@
     <Compile Include="Doctor\DoctorControl\UC_HistorialPacientes.Designer.cs">
       <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_InicioDoctor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_InicioDoctor.Designer.cs">
+      <DependentUpon>UC_InicioDoctor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Doctor\DoctorControl\UC_ListaTurnos.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Doctor\DoctorControl\UC_HistorialPacientes.resx">
       <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_InicioDoctor.resx">
+      <DependentUpon>UC_InicioDoctor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Doctor\DoctorControl\UC_ListaTurnos.resx">
       <DependentUpon>UC_ListaTurnos.cs</DependentUpon>
@@ -149,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\TurnosHoy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
