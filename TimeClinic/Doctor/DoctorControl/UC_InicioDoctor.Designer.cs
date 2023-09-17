@@ -58,12 +58,12 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(340, 162);
+            this.label6.Location = new System.Drawing.Point(365, 69);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(435, 24);
+            this.label6.Size = new System.Drawing.Size(484, 24);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Toda la información que necesitas en un solo lugar";
+            this.label6.Text = "Consulte la información de los turnos de hoy desde aqui";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label1
@@ -71,7 +71,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.label1.Location = new System.Drawing.Point(208, 95);
+            this.label1.Location = new System.Drawing.Point(426, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(326, 58);
@@ -83,7 +83,7 @@
             this.TLDoctorNom.AutoSize = true;
             this.TLDoctorNom.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TLDoctorNom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.TLDoctorNom.Location = new System.Drawing.Point(531, 95);
+            this.TLDoctorNom.Location = new System.Drawing.Point(749, 0);
             this.TLDoctorNom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TLDoctorNom.Name = "TLDoctorNom";
             this.TLDoctorNom.Size = new System.Drawing.Size(40, 58);
@@ -111,7 +111,7 @@
             this.panel1.Controls.Add(this.TBTurnosHoy);
             this.panel1.Controls.Add(this.label2);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.panel1.Location = new System.Drawing.Point(33, 392);
+            this.panel1.Location = new System.Drawing.Point(30, 292);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(336, 346);
             this.panel1.TabIndex = 16;
@@ -137,7 +137,7 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label4);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.panel2.Location = new System.Drawing.Point(455, 392);
+            this.panel2.Location = new System.Drawing.Point(452, 292);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(336, 346);
             this.panel2.TabIndex = 19;
@@ -162,7 +162,7 @@
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.label7);
             this.panel3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.panel3.Location = new System.Drawing.Point(859, 392);
+            this.panel3.Location = new System.Drawing.Point(856, 292);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(336, 346);
             this.panel3.TabIndex = 20;
@@ -185,7 +185,7 @@
             this.time.AutoSize = true;
             this.time.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.time.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.time.Location = new System.Drawing.Point(20, 244);
+            this.time.Location = new System.Drawing.Point(17, 144);
             this.time.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(348, 73);
@@ -197,7 +197,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.label8.Location = new System.Drawing.Point(28, 317);
+            this.label8.Location = new System.Drawing.Point(25, 217);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(356, 28);

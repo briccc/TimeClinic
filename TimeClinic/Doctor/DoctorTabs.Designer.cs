@@ -68,7 +68,7 @@
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(353, 1006);
+            this.panel1.Size = new System.Drawing.Size(354, 1006);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -97,7 +97,7 @@
             this.BHistorialPacientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BHistorialPacientes.Font = new System.Drawing.Font("Bahnschrift SemiLight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BHistorialPacientes.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.BHistorialPacientes.Location = new System.Drawing.Point(0, 81);
+            this.BHistorialPacientes.Location = new System.Drawing.Point(0, 80);
             this.BHistorialPacientes.Margin = new System.Windows.Forms.Padding(4);
             this.BHistorialPacientes.Name = "BHistorialPacientes";
             this.BHistorialPacientes.Size = new System.Drawing.Size(353, 41);
@@ -125,10 +125,12 @@
             // 
             // panelContainer
             // 
+            this.panelContainer.AutoSize = true;
             this.panelContainer.Location = new System.Drawing.Point(351, 0);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1323, 856);
             this.panelContainer.TabIndex = 3;
+            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
             // BInicio
             // 
@@ -239,6 +241,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

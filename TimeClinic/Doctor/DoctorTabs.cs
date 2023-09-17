@@ -55,7 +55,7 @@ namespace TimeClinic.DoctorControl
 
         private void BSalir_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void BHistorialPacientes_Click(object sender, EventArgs e)
@@ -74,6 +74,21 @@ namespace TimeClinic.DoctorControl
         {
             UC_InicioDoctor uc = new UC_InicioDoctor();
             addUserControl(uc);
+        }
+
+        private void panelContainer_Paint(object sender, PaintEventArgs e)
+        {
+            CenterContent();
+        }
+
+        private void CenterContent()
+        {
+            // Calculate the center position
+            int centerX = (this.Width - panelContainer.Width) / 2;
+            int centerY = (this.Height - panelContainer.Height) / 2;
+
+            // Set the location of the container control to center
+            panelContainer.Location = new Point(centerX, centerY);
         }
     }
 }
