@@ -47,11 +47,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UsersList.cs">
+    <Compile Include="AdmiControl\UsersList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UsersList.Designer.cs">
+    <Compile Include="AdmiControl\UsersList.Designer.cs">
       <DependentUpon>UsersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_AgregarReceta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_AgregarReceta.Designer.cs">
+      <DependentUpon>UC_AgregarReceta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_HistorialPacientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_HistorialPacientes.Designer.cs">
+      <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_InicioDoctor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_InicioDoctor.Designer.cs">
+      <DependentUpon>UC_InicioDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_ListaTurnos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorControl\UC_ListaTurnos.Designer.cs">
+      <DependentUpon>UC_ListaTurnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\DoctorTabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorTabs.Designer.cs">
+      <DependentUpon>DoctorTabs.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -59,21 +89,36 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewUser.cs">
+    <Compile Include="AdmiControl\NewUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewUser.Designer.cs">
+    <Compile Include="AdmiControl\NewUser.Designer.cs">
       <DependentUpon>NewUser.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="UsersList.resx">
+    <EmbeddedResource Include="AdmiControl\UsersList.resx">
       <DependentUpon>UsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_AgregarReceta.resx">
+      <DependentUpon>UC_AgregarReceta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_HistorialPacientes.resx">
+      <DependentUpon>UC_HistorialPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_InicioDoctor.resx">
+      <DependentUpon>UC_InicioDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorControl\UC_ListaTurnos.resx">
+      <DependentUpon>UC_ListaTurnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\DoctorTabs.resx">
+      <DependentUpon>DoctorTabs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewUser.resx">
+    <EmbeddedResource Include="AdmiControl\NewUser.resx">
       <DependentUpon>NewUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -84,6 +129,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -97,6 +143,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\chevron-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\clipboard-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\TurnosHoy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\TurnosTerminados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\examen %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
