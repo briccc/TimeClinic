@@ -168,6 +168,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_HIstorialPacientes.resx">
+      <DependentUpon>UC_HIstorialPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_HistorialTurnos.resx">
+      <DependentUpon>UC_HistorialTurnos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.resx">
       <DependentUpon>UC_NuevoPaciente.cs</DependentUpon>
     </EmbeddedResource>
