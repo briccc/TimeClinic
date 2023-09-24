@@ -104,6 +104,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_HIstorialPacientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_HIstorialPacientes.Designer.cs">
+      <DependentUpon>UC_HIstorialPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_HistorialTurnos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_HistorialTurnos.Designer.cs">
+      <DependentUpon>UC_HistorialTurnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.Designer.cs">
+      <DependentUpon>UC_NuevoPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_NuevoTurno.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_NuevoTurno.Designer.cs">
+      <DependentUpon>UC_NuevoTurno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recepcionista\RecepcionstaTabs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +168,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.resx">
+      <DependentUpon>UC_NuevoPaciente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcionista\RecepcionstaTabs.resx">
       <DependentUpon>RecepcionstaTabs.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,8 +215,6 @@
   <ItemGroup>
     <None Include="img\examen %281%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Recepcionista\RecepcionistaControl\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
