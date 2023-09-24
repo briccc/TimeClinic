@@ -43,6 +43,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.DTPFechaNac = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // BAgregarNuevoPaciente
@@ -55,7 +57,7 @@
             this.BAgregarNuevoPaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BAgregarNuevoPaciente.Font = new System.Drawing.Font("Bahnschrift SemiBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BAgregarNuevoPaciente.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.BAgregarNuevoPaciente.Location = new System.Drawing.Point(539, 672);
+            this.BAgregarNuevoPaciente.Location = new System.Drawing.Point(539, 730);
             this.BAgregarNuevoPaciente.Margin = new System.Windows.Forms.Padding(4);
             this.BAgregarNuevoPaciente.Name = "BAgregarNuevoPaciente";
             this.BAgregarNuevoPaciente.Size = new System.Drawing.Size(136, 42);
@@ -201,11 +203,32 @@
             this.label8.TabIndex = 42;
             this.label8.Text = "Teléfono";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label9.Location = new System.Drawing.Point(308, 650);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(159, 24);
+            this.label9.TabIndex = 48;
+            this.label9.Text = "Fecha Nacimiento";
+            // 
+            // DTPFechaNac
+            // 
+            this.DTPFechaNac.Location = new System.Drawing.Point(312, 677);
+            this.DTPFechaNac.Name = "DTPFechaNac";
+            this.DTPFechaNac.Size = new System.Drawing.Size(592, 22);
+            this.DTPFechaNac.TabIndex = 50;
+            // 
             // UC_NuevoPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(227)))), ((int)(((byte)(172)))));
+            this.Controls.Add(this.DTPFechaNac);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.TBTel);
             this.Controls.Add(this.TBCorreo);
             this.Controls.Add(this.TBDireccion);
@@ -244,5 +267,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker DTPFechaNac;
     }
 }
