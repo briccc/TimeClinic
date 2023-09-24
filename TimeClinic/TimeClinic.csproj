@@ -171,6 +171,9 @@
     <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.resx">
       <DependentUpon>UC_NuevoPaciente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_NuevoTurno.resx">
+      <DependentUpon>UC_NuevoTurno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcionista\RecepcionstaTabs.resx">
       <DependentUpon>RecepcionstaTabs.cs</DependentUpon>
     </EmbeddedResource>
