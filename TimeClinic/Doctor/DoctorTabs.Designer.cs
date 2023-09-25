@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BInicio = new System.Windows.Forms.Button();
             this.BSalir = new System.Windows.Forms.Button();
             this.BHistorialPacientes = new System.Windows.Forms.Button();
             this.BListaTurnos = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.BInicio = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -71,6 +71,23 @@
             this.panel1.Size = new System.Drawing.Size(354, 1006);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // BInicio
+            // 
+            this.BInicio.BackColor = System.Drawing.Color.White;
+            this.BInicio.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
+            this.BInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BInicio.Font = new System.Drawing.Font("Bahnschrift SemiLight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BInicio.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BInicio.Location = new System.Drawing.Point(0, 0);
+            this.BInicio.Margin = new System.Windows.Forms.Padding(4);
+            this.BInicio.Name = "BInicio";
+            this.BInicio.Size = new System.Drawing.Size(353, 41);
+            this.BInicio.TabIndex = 11;
+            this.BInicio.Text = "Inicio";
+            this.BInicio.UseVisualStyleBackColor = false;
+            this.BInicio.Click += new System.EventHandler(this.button1_Click);
             // 
             // BSalir
             // 
@@ -126,28 +143,11 @@
             // panelContainer
             // 
             this.panelContainer.AutoSize = true;
-            this.panelContainer.Location = new System.Drawing.Point(351, 0);
+            this.panelContainer.Location = new System.Drawing.Point(353, 0);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1323, 856);
             this.panelContainer.TabIndex = 3;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
-            // 
-            // BInicio
-            // 
-            this.BInicio.BackColor = System.Drawing.Color.White;
-            this.BInicio.FlatAppearance.BorderColor = System.Drawing.Color.Gainsboro;
-            this.BInicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BInicio.Font = new System.Drawing.Font("Bahnschrift SemiLight", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BInicio.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.BInicio.Location = new System.Drawing.Point(0, 0);
-            this.BInicio.Margin = new System.Windows.Forms.Padding(4);
-            this.BInicio.Name = "BInicio";
-            this.BInicio.Size = new System.Drawing.Size(353, 41);
-            this.BInicio.TabIndex = 11;
-            this.BInicio.Text = "Inicio";
-            this.BInicio.UseVisualStyleBackColor = false;
-            this.BInicio.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox7
             // 

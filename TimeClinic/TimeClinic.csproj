@@ -116,6 +116,12 @@
     <Compile Include="Recepcionista\RecepcionistaControl\UC_HistorialTurnos.Designer.cs">
       <DependentUpon>UC_HistorialTurnos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_InicioRecepcionista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Recepcionista\RecepcionistaControl\UC_InicioRecepcionista.Designer.cs">
+      <DependentUpon>UC_InicioRecepcionista.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -128,11 +134,11 @@
     <Compile Include="Recepcionista\RecepcionistaControl\UC_NuevoTurno.Designer.cs">
       <DependentUpon>UC_NuevoTurno.cs</DependentUpon>
     </Compile>
-    <Compile Include="Recepcionista\RecepcionstaTabs.cs">
+    <Compile Include="Recepcionista\RecepcionistaTabs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Recepcionista\RecepcionstaTabs.Designer.cs">
-      <DependentUpon>RecepcionstaTabs.cs</DependentUpon>
+    <Compile Include="Recepcionista\RecepcionistaTabs.Designer.cs">
+      <DependentUpon>RecepcionistaTabs.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AdmiControl\UsersList.resx">
       <DependentUpon>UsersList.cs</DependentUpon>
@@ -174,14 +180,17 @@
     <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_HistorialTurnos.resx">
       <DependentUpon>UC_HistorialTurnos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_InicioRecepcionista.resx">
+      <DependentUpon>UC_InicioRecepcionista.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_NuevoPaciente.resx">
       <DependentUpon>UC_NuevoPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Recepcionista\RecepcionistaControl\UC_NuevoTurno.resx">
       <DependentUpon>UC_NuevoTurno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Recepcionista\RecepcionstaTabs.resx">
-      <DependentUpon>RecepcionstaTabs.cs</DependentUpon>
+    <EmbeddedResource Include="Recepcionista\RecepcionistaTabs.resx">
+      <DependentUpon>RecepcionistaTabs.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

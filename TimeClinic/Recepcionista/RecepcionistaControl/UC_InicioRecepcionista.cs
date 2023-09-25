@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TimeClinic.Recepcionista
+namespace TimeClinic.Recepcionista.RecepcionistaControl
 {
-    public partial class RecepcionstaTabs : Form
+    public partial class UC_InicioRecepcionista : UserControl
     {
-        public RecepcionstaTabs()
+        public UC_InicioRecepcionista()
         {
             InitializeComponent();
         }

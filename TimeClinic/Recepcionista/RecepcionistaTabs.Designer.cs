@@ -1,6 +1,6 @@
 ﻿namespace TimeClinic.Recepcionista
 {
-    partial class RecepcionstaTabs
+    partial class RecepcionistaTabs
     {
         /// <summary>
         /// Required designer variable.
@@ -29,42 +29,45 @@
         private void InitializeComponent()
         {
             this.recepcionistaTabPanel = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BHistorialTurnos = new System.Windows.Forms.Button();
             this.BHistorialPacientes = new System.Windows.Forms.Button();
             this.BNuevoTurno = new System.Windows.Forms.Button();
             this.BNuevoPaciente = new System.Windows.Forms.Button();
             this.BInicio = new System.Windows.Forms.Button();
             this.BSalir = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.panelContainer = new System.Windows.Forms.Panel();
+            this.panelRecContainer = new System.Windows.Forms.Panel();
             this.recepcionistaTabPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // recepcionistaTabPanel
             // 
             this.recepcionistaTabPanel.BackColor = System.Drawing.Color.White;
+            this.recepcionistaTabPanel.Controls.Add(this.panelContainer);
             this.recepcionistaTabPanel.Controls.Add(this.pictureBox12);
             this.recepcionistaTabPanel.Controls.Add(this.pictureBox11);
             this.recepcionistaTabPanel.Controls.Add(this.pictureBox10);
@@ -87,6 +90,139 @@
             this.recepcionistaTabPanel.Name = "recepcionistaTabPanel";
             this.recepcionistaTabPanel.Size = new System.Drawing.Size(354, 1006);
             this.recepcionistaTabPanel.TabIndex = 0;
+            this.recepcionistaTabPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.recepcionistaTabPanel_Paint);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.ErrorImage = null;
+            this.pictureBox12.Image = global::TimeClinic.Properties.Resources.logout;
+            this.pictureBox12.Location = new System.Drawing.Point(12, 930);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox12.TabIndex = 26;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.ErrorImage = null;
+            this.pictureBox11.Image = global::TimeClinic.Properties.Resources.user;
+            this.pictureBox11.Location = new System.Drawing.Point(125, 27);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(99, 99);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 25;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.ErrorImage = null;
+            this.pictureBox10.Image = global::TimeClinic.Properties.Resources.user;
+            this.pictureBox10.Location = new System.Drawing.Point(12, 170);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox10.TabIndex = 24;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.ErrorImage = null;
+            this.pictureBox9.Image = global::TimeClinic.Properties.Resources.calendar;
+            this.pictureBox9.Location = new System.Drawing.Point(12, 210);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox9.TabIndex = 23;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.ErrorImage = null;
+            this.pictureBox8.Image = global::TimeClinic.Properties.Resources.calendar;
+            this.pictureBox8.Location = new System.Drawing.Point(12, 249);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.ErrorImage = null;
+            this.pictureBox7.Image = global::TimeClinic.Properties.Resources.clipboard_list;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 329);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox7.TabIndex = 21;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.ErrorImage = null;
+            this.pictureBox6.Image = global::TimeClinic.Properties.Resources.clipboard_list;
+            this.pictureBox6.Location = new System.Drawing.Point(12, 290);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox6.TabIndex = 20;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.ErrorImage = null;
+            this.pictureBox5.Image = global::TimeClinic.Properties.Resources.chevron_right;
+            this.pictureBox5.Location = new System.Drawing.Point(318, 329);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox5.TabIndex = 19;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.ErrorImage = null;
+            this.pictureBox4.Image = global::TimeClinic.Properties.Resources.chevron_right;
+            this.pictureBox4.Location = new System.Drawing.Point(318, 289);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.ErrorImage = null;
+            this.pictureBox3.Image = global::TimeClinic.Properties.Resources.chevron_right;
+            this.pictureBox3.Location = new System.Drawing.Point(318, 254);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.ErrorImage = null;
+            this.pictureBox2.Image = global::TimeClinic.Properties.Resources.chevron_right;
+            this.pictureBox2.Location = new System.Drawing.Point(318, 214);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::TimeClinic.Properties.Resources.chevron_right;
+            this.pictureBox1.Location = new System.Drawing.Point(318, 174);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // BHistorialTurnos
             // 
@@ -103,6 +239,7 @@
             this.BHistorialTurnos.TabIndex = 15;
             this.BHistorialTurnos.Text = "Historial Turnos";
             this.BHistorialTurnos.UseVisualStyleBackColor = false;
+            this.BHistorialTurnos.Click += new System.EventHandler(this.BHistorialTurnos_Click);
             // 
             // BHistorialPacientes
             // 
@@ -119,6 +256,7 @@
             this.BHistorialPacientes.TabIndex = 14;
             this.BHistorialPacientes.Text = "Historial Pacientes";
             this.BHistorialPacientes.UseVisualStyleBackColor = false;
+            this.BHistorialPacientes.Click += new System.EventHandler(this.BHistorialPacientes_Click);
             // 
             // BNuevoTurno
             // 
@@ -135,6 +273,7 @@
             this.BNuevoTurno.TabIndex = 6;
             this.BNuevoTurno.Text = "Crear nuevo turno";
             this.BNuevoTurno.UseVisualStyleBackColor = false;
+            this.BNuevoTurno.Click += new System.EventHandler(this.BNuevoTurno_Click);
             // 
             // BNuevoPaciente
             // 
@@ -151,6 +290,7 @@
             this.BNuevoPaciente.TabIndex = 5;
             this.BNuevoPaciente.Text = "Crear nuevo paciente";
             this.BNuevoPaciente.UseVisualStyleBackColor = false;
+            this.BNuevoPaciente.Click += new System.EventHandler(this.BNuevoPaciente_Click);
             // 
             // BInicio
             // 
@@ -167,6 +307,7 @@
             this.BInicio.TabIndex = 12;
             this.BInicio.Text = "Inicio";
             this.BInicio.UseVisualStyleBackColor = false;
+            this.BInicio.Click += new System.EventHandler(this.BInicio_Click);
             // 
             // BSalir
             // 
@@ -183,163 +324,52 @@
             this.BSalir.TabIndex = 7;
             this.BSalir.Text = "Salir";
             this.BSalir.UseVisualStyleBackColor = false;
+            this.BSalir.Click += new System.EventHandler(this.BSalir_Click);
             // 
-            // pictureBox1
+            // panelContainer
             // 
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = global::TimeClinic.Properties.Resources.chevron_right;
-            this.pictureBox1.Location = new System.Drawing.Point(318, 174);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.panelContainer.AutoSize = true;
+            this.panelContainer.Location = new System.Drawing.Point(357, 3);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(1323, 856);
+            this.panelContainer.TabIndex = 4;
             // 
-            // pictureBox2
+            // panelRecContainer
             // 
-            this.pictureBox2.ErrorImage = null;
-            this.pictureBox2.Image = global::TimeClinic.Properties.Resources.chevron_right;
-            this.pictureBox2.Location = new System.Drawing.Point(318, 214);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
+            this.panelRecContainer.AutoSize = true;
+            this.panelRecContainer.Location = new System.Drawing.Point(354, 0);
+            this.panelRecContainer.Name = "panelRecContainer";
+            this.panelRecContainer.Size = new System.Drawing.Size(1323, 856);
+            this.panelRecContainer.TabIndex = 4;
+            this.panelRecContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRecContainer_Paint);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.Image = global::TimeClinic.Properties.Resources.chevron_right;
-            this.pictureBox3.Location = new System.Drawing.Point(318, 254);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 17;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.ErrorImage = null;
-            this.pictureBox4.Image = global::TimeClinic.Properties.Resources.chevron_right;
-            this.pictureBox4.Location = new System.Drawing.Point(318, 289);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 18;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.ErrorImage = null;
-            this.pictureBox5.Image = global::TimeClinic.Properties.Resources.chevron_right;
-            this.pictureBox5.Location = new System.Drawing.Point(318, 329);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 19;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.ErrorImage = null;
-            this.pictureBox6.Image = global::TimeClinic.Properties.Resources.clipboard_list;
-            this.pictureBox6.Location = new System.Drawing.Point(12, 290);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox6.TabIndex = 20;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.ErrorImage = null;
-            this.pictureBox7.Image = global::TimeClinic.Properties.Resources.clipboard_list;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 329);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox7.TabIndex = 21;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.ErrorImage = null;
-            this.pictureBox8.Image = global::TimeClinic.Properties.Resources.calendar;
-            this.pictureBox8.Location = new System.Drawing.Point(12, 249);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox8.TabIndex = 22;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.ErrorImage = null;
-            this.pictureBox9.Image = global::TimeClinic.Properties.Resources.calendar;
-            this.pictureBox9.Location = new System.Drawing.Point(12, 210);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox9.TabIndex = 23;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.ErrorImage = null;
-            this.pictureBox10.Image = global::TimeClinic.Properties.Resources.user;
-            this.pictureBox10.Location = new System.Drawing.Point(12, 170);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox10.TabIndex = 24;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.ErrorImage = null;
-            this.pictureBox11.Image = global::TimeClinic.Properties.Resources.user;
-            this.pictureBox11.Location = new System.Drawing.Point(125, 27);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(99, 99);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 25;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.ErrorImage = null;
-            this.pictureBox12.Image = global::TimeClinic.Properties.Resources.logout;
-            this.pictureBox12.Location = new System.Drawing.Point(12, 930);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox12.TabIndex = 26;
-            this.pictureBox12.TabStop = false;
-            // 
-            // RecepcionstaTabs
+            // RecepcionistaTabs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(227)))), ((int)(((byte)(172)))));
-            this.ClientSize = new System.Drawing.Size(1675, 1002);
+            this.ClientSize = new System.Drawing.Size(1675, 1055);
+            this.Controls.Add(this.panelRecContainer);
             this.Controls.Add(this.recepcionistaTabPanel);
-            this.Name = "RecepcionstaTabs";
+            this.Name = "RecepcionistaTabs";
             this.Text = "RecepcionstaTabs";
+            this.Load += new System.EventHandler(this.RecepcionistaTabs_Load);
             this.recepcionistaTabPanel.ResumeLayout(false);
             this.recepcionistaTabPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -364,5 +394,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panelContainer;
+        private System.Windows.Forms.Panel panelRecContainer;
     }
 }

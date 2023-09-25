@@ -16,7 +16,8 @@ namespace TimeClinic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DoctorControl.DoctorTabs());
+            Application.Run(new Recepcionista.RecepcionistaTabs());
+            //Application.Run(new DoctorControl.DoctorTabs());
         }
     }
 }
