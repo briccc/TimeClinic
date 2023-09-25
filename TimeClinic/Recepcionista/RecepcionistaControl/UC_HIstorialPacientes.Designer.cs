@@ -30,7 +30,6 @@
         {
             this.label6 = new System.Windows.Forms.Label();
             this.TablaHistorialPacientes = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.dni_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellido_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,6 +38,7 @@
             this.fechanac_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BVerMas = new System.Windows.Forms.DataGridViewButtonColumn();
             this.TBEditarPaciente = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TablaHistorialPacientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +47,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(309, 70);
+            this.label6.Location = new System.Drawing.Point(310, 70);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(596, 24);
@@ -68,24 +68,12 @@
             this.BVerMas,
             this.TBEditarPaciente});
             this.TablaHistorialPacientes.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.TablaHistorialPacientes.Location = new System.Drawing.Point(83, 150);
+            this.TablaHistorialPacientes.Location = new System.Drawing.Point(84, 150);
             this.TablaHistorialPacientes.Margin = new System.Windows.Forms.Padding(4);
             this.TablaHistorialPacientes.Name = "TablaHistorialPacientes";
             this.TablaHistorialPacientes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.TablaHistorialPacientes.Size = new System.Drawing.Size(1046, 357);
             this.TablaHistorialPacientes.TabIndex = 13;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.label1.Location = new System.Drawing.Point(384, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(447, 58);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Historial de Pacientes";
             // 
             // dni_paciente
             // 
@@ -142,6 +130,18 @@
             this.TBEditarPaciente.MinimumWidth = 6;
             this.TBEditarPaciente.Name = "TBEditarPaciente";
             this.TBEditarPaciente.Width = 125;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
+            this.label1.Location = new System.Drawing.Point(385, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(447, 58);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Historial de Pacientes";
             // 
             // UC_HIstorialPacientes
             // 

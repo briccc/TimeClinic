@@ -30,7 +30,6 @@
         {
             this.label6 = new System.Windows.Forms.Label();
             this.TablaHistorialPacientes = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.ID_Turno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellido_paciente = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -38,6 +37,7 @@
             this.fechaTurno = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BVerMas = new System.Windows.Forms.DataGridViewButtonColumn();
             this.TBEditarTurno = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TablaHistorialPacientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,18 +72,6 @@
             this.TablaHistorialPacientes.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.TablaHistorialPacientes.Size = new System.Drawing.Size(921, 357);
             this.TablaHistorialPacientes.TabIndex = 16;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
-            this.label1.Location = new System.Drawing.Point(411, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(393, 58);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Historial de Turnos";
             // 
             // ID_Turno
             // 
@@ -133,6 +121,18 @@
             this.TBEditarTurno.MinimumWidth = 6;
             this.TBEditarTurno.Name = "TBEditarTurno";
             this.TBEditarTurno.Width = 125;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(104)))), ((int)(((byte)(91)))));
+            this.label1.Location = new System.Drawing.Point(411, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(393, 58);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Historial de Turnos";
             // 
             // UC_HistorialTurnos
             // 
